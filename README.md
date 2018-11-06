@@ -31,4 +31,4 @@ The default behaviour outputs the JSON to stdout.  See `python3 align.py --help`
 
 ## Docker
 
-If you are building docker from source note the build time is ~2 hr. Additionally make sure to install khalid in ext/ by running `bash ext/install_kaldi.sh`
+If you are building docker from source note the build time can take up to ~2 hr. Additionally make sure to install khalid in ext/ by running `bash ext/install_kaldi.sh`

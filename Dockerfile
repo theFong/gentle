@@ -1,6 +1,11 @@
 FROM ubuntu:18.04
 
 RUN DEBIAN_FRONTEND=noninteractive && \
+	apt update && \
+	apt upgrade && \
+	apt install python2.7 && \
+	apt-get install libblas-dev liblapack-dev && \
+	apt-get install gfortran && \
 	apt-get update && \
 	apt-get install -y \
 		gcc g++ gfortran \
